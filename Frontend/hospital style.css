@@ -1,0 +1,148 @@
+.maindiv{
+    height:65px;
+    border-bottom: 2px solid #d9d9d9;
+}
+.divlogo{
+    display: flex;
+}
+.logo{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}
+.listdata{
+    display: flex;
+    list-style: none;
+}
+.logotext{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Roboto" ,sans-serif ;
+    margin-right: 240px;
+    margin-left: 18px;
+}
+.listtext{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "Roboto" ,sans-serif ;
+    margin:15px;
+}
+.BAbutton{
+    border-radius: 17px;
+    border:none;
+    width:100px;
+    height: 30px;
+    background-color: rgb(52, 178, 100);
+    color: #ffff;
+    margin-top: -10px;
+}
+.secdiv{
+    display: flex;
+}
+.image1{
+    width:400px;
+    height:400px;
+    margin:100px;
+    margin-left: 270px;
+    border-radius: 5px;
+}
+.maintext{
+    font-family: "Roboto" ,sans-serif ;
+    font-size: 45px;
+    font-weight: 900;
+    margin-top:150px;
+    margin-bottom: 29px;
+    margin-left: -100px;
+}
+.subtext{
+    font-family: "Roboto" ,sans-serif ;
+    font-size: 12px;
+    font-weight: 400;
+    text-align:left;
+}
+.LMbutton{
+    border-radius: 17px;
+    border:none;
+    width:100px;
+    height: 30px;
+    background-color: rgb(52, 178, 100);
+    color: #ffff;
+    margin-left: -450px;
+    margin-top: 12px;
+}
+.image2{
+    height: 320px;
+    width: 250px;
+    border-radius: 10px;
+    margin-right: 60px;
+   
+}
+.thirddiv{
+    display:flex;
+    justify-content: center;
+}
+.imagetext{
+    font-family: "Roboto" ,sans-serif ;
+    font-size: 14px;
+    font-weight: 500;
+    text-align:justify;
+}
+.lastdiv{
+    display: flex;
+    justify-content: center;
+}
+.plan{
+    width:282px;
+    height: 295px;
+    background-color:#FFF7F1;
+    margin:25px;  
+}
+.innerdata{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    text-align: left;
+    margin-left: 21px;
+}
+.button{
+    border-radius: 17px;
+    border:none;
+    width:100px;
+    height: 30px;
+    background-color: rgb(52, 178, 100);
+    color: #ffff;
+    margin-top: 12px;
+}
+.plan{
+    font-family: "Roboto" ,sans-serif ;
+    font-size: 16px;
+    font-weight: 600;
+}
+.amount{
+    font-family: "Roboto" ,sans-serif ;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: italic;
+}
+.timelimit{
+    font-family: "Roboto" ,sans-serif ;
+    font-size: 11px;
+    font-weight: 600;
+    font-style: normal;
+}
+.signup{
+    width:180px;
+    height: 30px;
+    border-radius: 17px;
+    border:none;
+    font-size: 14px;
+    background-color: bisque;
+    margin: 10px;
+}
+.ttt{
+    font-family: "Roboto" ,sans-serif ;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+    line-height: 1.8;
+}

@@ -1,0 +1,46 @@
+body{
+    background-color: #FFCF96;
+}
+.heading{
+    font-size: 20px;
+    font-family:"Poppins", sans-serif;
+    font-weight: 600;
+}
+input{
+    height: 60px;
+    width: 320px;
+    border-radius: 25px;
+    margin-top: 10px;
+    outline: none;
+    border: none;
+}
+input::placeholder{
+    padding-left: 40px;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+}
+.forgetpassword{
+    height: 60px;
+    width: 320px;
+    border-radius: 25px;
+    margin-top: 30px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+}
+.signinbutton{
+    height: 60px;
+    width: 320px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    color: #f3f1f0;
+    background: linear-gradient(to right, #db6d69, #420909);
+}

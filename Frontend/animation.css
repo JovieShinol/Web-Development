@@ -1,0 +1,35 @@
+.ani{
+    width: 100px;
+    height: 100px;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    background-color: blue;
+    animation-name: animate1;
+    animation-duration: 5s; 
+    position: absolute;
+}
+@keyframes animate1{
+    from{
+        background-color:blue;
+    }
+    to{
+        background-color: brown;
+    } 
+
+}
+.ani1{
+    width: 150px;
+    height: 150px;
+    background-color:beige;
+    animation-name: anime;
+    animation-duration: 3s;
+    position: relative;
+}
+@keyframes anime{
+    0% {background-color: beige;left:0px;top:0px;}
+    25% {background-color: blueviolet;left:100px;top:0px;}
+    50% {background-color: rgb(195, 133, 53);left:100px;top:100px;}
+    75% {background-color: aqua;left:0px;top:100px;}
+    100% {background-color: grey;left:0px;top:0px;}
+}

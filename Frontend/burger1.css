@@ -1,0 +1,98 @@
+body{
+    background-color: #12372A;
+}
+.image-container{
+    position: relative;
+    display: inline-block;
+}
+.image-container img{
+    margin-top: 50px;
+    display: block;
+    width: fit-content;
+    height:auto ;
+}
+.overlay-text{
+    position: absolute;
+    top: 80%;
+    margin-left: 70px;
+    color: #FBFADA;
+    font-size: 20px;
+    font-family: "Lexend Zetta", sans-serif;
+}
+.text{
+    position: absolute;
+    top: 86%;
+    margin-left: 70px;
+    color: #FBFADA;
+    font-family: "Sansita Swashed", system-ui;
+    font-size: 24px;
+}
+.smalltext{
+    position: absolute;
+    top: 24%;
+    margin-left: 50px;
+    color: #FBFADA;
+    font-size: 12px;
+    font-family: "Lexend Zetta", sans-serif;
+    font-style: inherit
+}
+.maindiv{
+    color: #FBFADA;
+    background-color: #12372A;
+    width: 1469;
+    height: 149;
+}
+.list{
+    margin-top: 25px;
+    display: flex;
+    list-style: none;
+    justify-content:space-around;
+}
+.listitem{
+    color: #FBFADA;
+    font-family: "Sansita Swashed";
+    font-size: 20px;
+    padding-left:80px;
+}
+.listid{
+    color: #FBFADA;
+    font-family: "Sansita Swashed";
+    font-size: 20px;
+    padding-left:500px;
+}
+.listlast{
+    color: #FBFADA;
+    font-family: "Sansita Swashed";
+    font-size: 20px;
+    padding-left:80px;
+}
+.listhead{
+    color: #FBFADA;
+    font-size: 28px;
+    font-family: "Lexend Zetta", sans-serif;
+}
+.container{
+   display: flex;
+}
+.oneline img{
+    margin-left: 300px;
+    width: 500px;
+    height: auto;
+}
+.logo{
+    margin-top: 190px;
+   
+}
+.small{
+    color: #FBFADA;
+    font-size: 24px;
+    font-family: "Lexend Zetta", sans-serif;
+    margin-left: 260px;
+}
+.desktopimage img{
+    height: 800px;
+    width: auto;
+    margin-left: 10px;
+    margin-top: -120px;
+}
+
