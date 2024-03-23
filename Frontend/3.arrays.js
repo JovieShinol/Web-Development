@@ -43,6 +43,7 @@
 //});
 //console.log(sortdata);
 
-let data='emoclew';
-let datas=[...data];
-console.log(datas.reverse().join(''));
+// let data='emoclew';
+// let datas=[...data];
+// console.log(datas.reverse().join(''));
+alert("hello world");
