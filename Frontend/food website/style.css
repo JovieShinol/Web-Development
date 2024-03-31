@@ -1,0 +1,216 @@
+body{
+    background-color: #111111;
+    width: 1323.58px;
+    height: 3283px;
+    color:#ffff;
+
+}
+.nav1{
+    margin-left: 350px;
+    list-style: none;
+    display: flex;
+    column-gap: 100px;
+    font-family: "Aoboshi One" ,sans-serif;
+}
+.navbar{
+    display: flex;
+    margin-top: 36px;
+    font-family: "Aoboshi One" ,sans-serif;
+}
+.logopos{
+    margin-left:30px ;
+}
+.search{
+    width: 18px;
+    height: 18px;
+}
+.cart{
+    width: 18px;
+    height: 18px;
+}
+.nav2{
+    margin-left: 100px;
+    column-gap: 60px;
+    display: flex;
+    list-style: none;
+    margin-top:17px;
+    font-family: "Aoboshi One" ,sans-serif;
+}
+.login{
+    margin-top:-15px;
+    background: linear-gradient(#A2A2A229 16%,#FFFBFB00 0%);
+    color: #ffff;
+    width:80px;
+    height: 35px;
+    border-radius: 90px;
+    border: 1 px solid #A2A2A229;
+    border-style:inset;
+    font-size: 12px;
+    font-family: "Aoboshi One" ,sans-serif;
+}
+.home{
+    width: 700px;
+    height: 365px;
+    border-radius: 3.68px 18.38px 18.38px 18.38px;
+    opacity: 0px;
+    margin-top: 100px;
+    display: flex;
+}
+.text1{
+    font-family: Aoboshi One;
+    font-size: 34.93px;
+    font-weight: 400;
+    line-height: 45.43px;
+    text-align: justify;
+    margin-left: 100px;
+    position: absolute;
+}
+.underline{
+    margin-left: 450px;
+    margin-top: 130px;
+    position:relative;
+}
+.text2{
+    margin-left: 100px;
+    font-family: "Work Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+.homeimage{
+    display: flex;
+}
+.MainChef{
+    width: 700px;
+    height: 650px;
+    position: absolute;
+    margin-top: -100px;
+}
+.arrow{
+    width: 70px;
+    height: 50px;
+    position: relative;
+    margin-left: 100px;
+}
+.likes{
+    width: auto;
+    height: 50px;
+    margin-left: 300px;
+}
+.getstarted{
+    width: 100px;
+    height: 40px;
+    border-radius: 12px 20px 4px;
+    margin-left: 100px;
+    background: linear-gradient( #FEA941 0%, #B74118 100%);
+    border: #111111;
+}
+.preview{
+    width: 35px;
+    height: 35px;
+    margin-left: 30px;
+}
+.sameline{
+    display: flex;
+    list-style: none;
+    column-gap: 10px;
+}
+.normalText{
+    font-size: 13px;
+    font-family: "Aoboshi One" ,sans-serif;
+}
+.sameline1{
+    display: flex;
+    list-style: none;
+    column-gap: 80px;
+    margin-left: 100px;
+    margin-top: 15px;
+}
+.sameline2{
+    display: flex;
+    list-style: none;
+    column-gap: 35px;
+    margin-left: 80px;
+    margin-top: -20px;
+}
+.text3{
+    text-align: center;
+    font-size: 13px;
+    font-family: "Aoboshi One" ,sans-serif;
+}
+.image1{
+    width: 42px;
+    height: 42px;
+    margin: 5px;
+}
+.image2{
+    width: 27px;
+    height: 27px;
+    margin: 8px;
+}
+.sticker1{
+    width: 180px;
+    height: 50px;
+    background-color: #ffff;
+    border-radius: 90px;
+    border: #111111;
+    position: absolute;
+    margin-top:250px;
+    margin-left:75px;
+}.sticker2{
+    width: 150px;
+    height: 40px;
+    background-color: #ffff;
+    border-radius: 90px;
+    border: #111111;
+    position: absolute;
+    margin-top:351px;
+    margin-left:490px;
+}
+
+.sms2{ 
+    margin-left: 29px;
+    position: relative;
+    margin-top: -37px;
+    color: #000;
+    font-size: 12px;
+    font-family: "Aoboshi One" ,sans-serif;
+    text-align: center;
+}
+.sms1{
+    margin-left: 15px;
+    position: relative;
+    margin-top: -50px;
+    color: #000;
+    font-size: 12px;
+    font-family: "Aoboshi One" ,sans-serif;
+    text-align: center;
+}
+.sellPizza{
+    width: 1137px;
+    height: 476px;
+    margin-left: 92px;
+    top:740px;
+    opacity: 0px;
+    /* background-color:#A2A2A229 ; */
+    border: 5px solid #ffff;
+    position: absolute;
+    display: flex;
+}
+.left{
+    width: 54px;
+    height: 54px;
+    margin-top: 237px;
+}
+.pizzas{
+    width: 130px;
+    height: 130px;
+    margin: 20px;
+}
+.card{
+    width: 170px;
+    height: 260px;
+    background-color:#A2A2A229 ;
+    margin-top: 100px;
+    margin-left: 50px;
+    border-radius: 16px;
+}
