@@ -71,6 +71,7 @@ body{
     position:relative;
 }
 .text2{
+    margin-top: 25px;
     margin-left: 100px;
     font-family: "Work Sans", sans-serif;
     font-size: 14px;
@@ -186,20 +187,26 @@ body{
     text-align: center;
 }
 .sellPizza{
-    width: 1137px;
-    height: 476px;
-    margin-left: 92px;
-    top:740px;
+    align-items: center;
+    justify-content: center;
+    width: 870px;
+    height: 370px;
+    margin: auto;
+    top:700px;
+    left: 300px;
     opacity: 0px;
-    /* background-color:#A2A2A229 ; */
-    border: 5px solid #ffff;
+    background-color:#A2A2A229 ;
     position: absolute;
     display: flex;
+    border-radius: 26px;
 }
 .left{
     width: 54px;
     height: 54px;
-    margin-top: 237px;
+}
+.right{
+    width: 54px;
+    height: 54px;
 }
 .pizzas{
     width: 130px;
@@ -210,7 +217,37 @@ body{
     width: 170px;
     height: 260px;
     background-color:#A2A2A229 ;
-    margin-top: 100px;
-    margin-left: 50px;
+    margin-left: 20px;
+    margin-right: 10px;
     border-radius: 16px;
+}
+.title{
+    color: gold;
+    font-size: 12px;
+    font-family: "Aoboshi One" ,sans-serif;
+    padding: 28px;
+}
+.sub{
+    color: beige;
+    font-size: 12px;
+    font-family: "Aoboshi One" ,sans-serif;
+    padding: 28px;
+}
+.red{
+    color: #B31312;
+}
+.stickers{
+    height: 150px;
+    width: 300px;
+    position: absolute;
+    border: 3px solid #B74118;
+}
+.hotseller{
+    font-size: 34.93px;
+    font-weight: 400;
+    line-height: 45.43px;
+    text-align: center;
+    font-family: "Aoboshi One" ,sans-serif;
+    padding: 28px;
+
 }
