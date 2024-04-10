@@ -1,8 +1,9 @@
 body{
     background-color: #111111;
     width: 1323.58px;
-    height: 3283px;
+    height: 2800px;
     color:#ffff;
+    box-sizing: border-box;
 
 }
 .nav1{
@@ -76,6 +77,7 @@ body{
     font-family: "Work Sans", sans-serif;
     font-size: 14px;
     font-weight: 400;
+    opacity: 50%;
 }
 .homeimage{
     display: flex;
@@ -225,22 +227,23 @@ body{
     color: gold;
     font-size: 12px;
     font-family: "Aoboshi One" ,sans-serif;
-    padding: 28px;
+    padding-left: 28px;
 }
 .sub{
     color: beige;
     font-size: 12px;
     font-family: "Aoboshi One" ,sans-serif;
-    padding: 28px;
+    padding-left: 28px;
 }
 .red{
     color: #B31312;
 }
-.stickers{
+.sellers{
     height: 150px;
-    width: 300px;
+    width: 500px;
     position: absolute;
-    border: 3px solid #B74118;
+    align-items: center;
+    margin-left: 450px;
 }
 .hotseller{
     font-size: 34.93px;
@@ -249,5 +252,121 @@ body{
     text-align: center;
     font-family: "Aoboshi One" ,sans-serif;
     padding: 28px;
+}
+.vector1{
+    width:270px;
+    height: 70px;
+    margin-left: 210px;
+    margin-top: -120px;
+    position: absolute;
+}
+.heart{
+   padding-top: 15px;
+   margin-left: 130px;
+}
+.hotel{
+    width: 1300px;
+    height: 565px;
+    display: flex;
+    margin-top: 600px;
+    margin-left: 100px;
 
+}
+.granny{
+    width: 470px;
+    height: 400px;
+}
+.caketext{
+    font-family: "Aoboshi One";
+    font-size: 34.93px;
+    font-weight: 400;
+    line-height: 45.43px;
+    text-align: justify;
+    margin-left: 100px;
+    position: absolute;
+}
+.repeat{
+    margin-left: 300px;
+    margin-top: 25px;
+}
+.text4{
+    font-family: Aoboshi One;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: justify;
+    margin-left: 100px;
+}
+.promote{
+    width: 198px;
+    height: 160px;
+    margin-top: 40px;
+    border: 1 px solid #A2A2A229;
+    border-style:inset;
+    border-radius: 20px;
+}
+.leaf{
+    width: auto;
+    height: 90px;
+    margin-top: 200px;
+}
+.bestchef{
+    width: 1300px;
+    height: 565px;
+    margin-left: 50px;
+}
+.cheftext{
+    position: relative;
+    font-family: "Aoboshi One";
+    font-size: 34.93px;
+    font-weight: 400;
+    text-align: center;
+}
+.repeat2{
+   margin-left: 630px;
+    margin-top:-15px; 
+   position:absolute;
+   width: 220px;
+   height: auto;
+}
+.app{
+   width: 1323.58px;
+   height: 500px;
+   margin-left: 100px;
+   position: absolute;
+   margin-top: -100px;
+}
+.appimg{
+    width: 1323.58px;
+    height: 500px;
+}
+.footer{
+    width: 1300px;
+    height: 270px;
+    display: flex;
+    margin-top: 400px;
+    margin-left: 80px;
+}
+.foot1{
+    width: 250px;
+    height: 200px;
+    margin-top: 80px;
+    margin-left: -60px;
+}
+.logoposition{
+    margin-left: 50px;
+}
+.text5{
+    font-family: "Work Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    opacity: 50%;
+    line-height: 30px;
+}
+.company{
+    list-style: none;
+    margin-left: 70px;
+}
+.foot2{
+    margin-top: 80px;
+    margin-left: 100px;
 }
