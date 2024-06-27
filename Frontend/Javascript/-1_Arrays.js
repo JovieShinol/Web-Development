@@ -53,10 +53,10 @@ for(i=0;i<=4;i++)
 // let user=window.prompt("your name:")
 // console.log(user)
 
-var person=function(f_name,l_name){
-    this.f_name=f_name
-    this.l_name=l_name
-}
-var em=new person("besant","tech")
-console.log(em)
-console.log(typeof(em))
+// var person=function(f_name,l_name){
+//     this.f_name=f_name
+//     this.l_name=l_name
+// }
+// var em=new person("besant","tech")
+// console.log(em)
+// console.log(typeof(em))

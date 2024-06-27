@@ -4,22 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FORMS AND FORM ELEMENTS</title>
+    <style>
+        /* .FN{
+            display:block; 
+            margin-bottom: 5px;
+        } */
+
+    </style>
 </head>
 <body>
 <form action="form.html" method="post">
     <fieldset>
         <legend>Registration Form</legend>
-        <div>
-            <label for="fname">First Name:</label>
-            <input type="text" id="fname" name="fname" placeholder="Enter Your First Name here">
-        </div>
-        <br>
-        <div>
-            <label for="lname">Last Name:</label>
-            <input type="text" id="lname" name="lname" placeholder="Enter Your Last Name here">
-        </div>
-        <br>
-        <div>
+        <label class="FN" for="fname">First Name:</label>
+        <input class="FN" type="text" id="fname" name="fname" placeholder="Enter Your First Name here">
+        <label class="FN"  for="lname">Last Name:</label>
+        <input class="FN" type="text" id="lname" name="lname" placeholder="Enter Your Last Name here">
+
+        <!-- <div>
             <label for="username">User Name:</label>
             <input type="text" id="username" name="username" placeholder="Enter Your Username here">
         </div>
@@ -103,7 +105,7 @@
         <div>
             <input type="submit">
             <input type="reset">
-        </div>
+        </div> -->
 
     </fieldset>
 
