@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="one" color="blue"></h1>
+    <h1 id="two"></h1>
+    <input type="button" value="open" onclick="win_open()">
+    <input type="button" value="close" onclick="win_close()">
+    <script>
+        document.getElementById("one").innerHTML="Height of the browser" + screen.height+"px"
+        document.getElementById("two").innerHTML="width of the screen"+ screen.width+"px"
+        var win_open=function(){
+            var newwindow=window.open("https://www.udemy.com/course/css-bootstrap-and-javascript-and-python-stack-course/learn/lecture/29995016#overview");
+        }
+        var win_close=function(){
+            window.close()
+        }
+    </script>
+</body>
+</html>
